@@ -21,5 +21,4 @@
 # function: add_lunch_combo generic-eng
 
 #dd_lunch_combo full_mb526-eng
-add_lunch_combo cm_x5-userdebug
-add_lunch_combo cm_x5-eng
+add_lunch_combo candy5_x5-userdebug
