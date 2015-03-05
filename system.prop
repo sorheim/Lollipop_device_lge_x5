@@ -9,6 +9,15 @@ persist.sys.usb.config=mtp,adb
 
 rild.libpath=/vendor/lib/libril-qc-qmi-1.so
 rild.libargs=-d /dev/smd0
+persist.rild.nitz_plmn=
+persist.rild.nitz_long_ons_0=
+persist.rild.nitz_long_ons_1=
+persist.rild.nitz_long_ons_2=
+persist.rild.nitz_long_ons_3=
+persist.rild.nitz_short_ons_0=
+persist.rild.nitz_short_ons_1=
+persist.rild.nitz_short_ons_2=
+persist.rild.nitz_short_ons_3=
 ril.subscription.types=NV,RUIM
 ro.telephony.ril_class=LgeX5RIL
 ro.telephony.default_cdma_sub=0
@@ -33,6 +42,10 @@ ro.use_data_netmgrd=true
 ro.ril.enable.amr.wideband=1
 ro.lge.proximity.delay=25
 ro.telephony.call_ring.delay=0
+
+persist.radio.adb_log_on=1
+persist.radio.qcril_am_enabled=1
+
 
 #
 # system props for the cne module
@@ -223,4 +236,8 @@ gsm.operator.alpha=310120
 ro.cdma.subscribe_on_ruim_ready=true
 telephony.sms.pseudo_multipart=1
 qemu.hw.mainkeys=1
+
+ro.build.product=x5
+ro.product.device=x5
+ro.product.model=LS740
 
